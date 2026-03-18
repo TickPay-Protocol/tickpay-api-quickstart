@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Security - STRICTLY IGNORE CREDENTIALS
+.env*
+!*.example
+!*.sample
+*.pem
+*.key
+serviceAccountKey.json
+secret*
